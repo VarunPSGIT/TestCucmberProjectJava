@@ -18,6 +18,7 @@ permissions:
   contents: write
   actions: read
   security-events: write
+  dependency-graph: write
   
 jobs:
   build:
