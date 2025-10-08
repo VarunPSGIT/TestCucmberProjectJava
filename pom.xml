@@ -11,7 +11,13 @@
         <artifactId>selenium-java</artifactId>
         <version>4.12.0</version>
     </dependency>
-
+   <dependency>
+	  <groupId>org.projectlombok</groupId>
+	  <artifactId>lombok</artifactId>
+	  <version>1.18.32</version> <!-- Use latest stable -->
+	  <scope>provided</scope>
+   </dependency>
+	  
     <!-- Cucumber Core and JUnit Integration -->
     <dependency>
         <groupId>io.cucumber</groupId>
