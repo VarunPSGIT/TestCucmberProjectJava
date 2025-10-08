@@ -18,11 +18,9 @@ permissions:
   contents: read
   actions: read
   security-events: write
-  deployments: write
   
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
